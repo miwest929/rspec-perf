@@ -1,3 +1,5 @@
+require 'benchmark'
+
 class BenchmarkSample
   def self.measure(sample_size)
     results = []
